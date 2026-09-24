@@ -1,0 +1,8 @@
+*.zip
+*.tar
+*.tar.gz
+*.nii
+*.nii.gz
+__pycache__/
+.ipynb_checkpoints/
+last_v4_suprem_segresnet.pt

@@ -1,0 +1,20 @@
+{
+  "n_cases": 901,
+  "positive_cases": 151,
+  "negative_cases": 750,
+  "validation_selected_lesion_threshold": 0.5,
+  "validation_selected_component_threshold": 2000,
+  "P_Sen_patient_sensitivity": 0.7483443708113678,
+  "T_Sen_tumor_sensitivity": 0.5900621117645923,
+  "specificity": 0.6146666666584711,
+  "precision": 0.28109452735619167,
+  "AUC": 0.8086622516556291,
+  "DSC_positive_cases": 0.29950126770213825,
+  "pancreas_DSC": 0.8235991258931742,
+  "TP": 113,
+  "TN": 461,
+  "FP": 289,
+  "FN": 38,
+  "GT_tumors": 161,
+  "detected_GT_tumors": 95
+}

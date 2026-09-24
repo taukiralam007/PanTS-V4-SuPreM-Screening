@@ -1,0 +1,77 @@
+{
+  "model": "SuPreM pretrained MONAI SegResNet",
+  "training_subset": "PanTSMini cases 00000001-00001000",
+  "training_cases": 800,
+  "validation_cases": 100,
+  "local_test_cases": 100,
+  "pretraining": "SuPreM SegResNet checkpoint pretrained on abdominal CT",
+  "spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch": [
+    96,
+    96,
+    96
+  ],
+  "ct_window": [
+    -175,
+    250
+  ],
+  "best_epoch": 5,
+  "validation_metrics": {
+    "n": 100,
+    "positive_cases": 9,
+    "pancreas_dice": 0.7848738618692515,
+    "auc": 0.6544566544566545,
+    "best_lesion_threshold": 0.5,
+    "best_positive_lesion_dice": 0.20023540095987602,
+    "threshold_dices": {
+      "0.2": 0.18681006606610337,
+      "0.3": 0.1964265826021246,
+      "0.4": 0.19892202308997792,
+      "0.5": 0.20023540095987602,
+      "0.6": 0.19863132250965207,
+      "0.7": 0.19322053469105194
+    }
+  },
+  "selected_lesion_threshold": 0.5,
+  "selected_component_threshold": 2000,
+  "local_test_positive_lesion_dice": 0.23222548677322896,
+  "local_test_pancreas_dice": 0.8282673855546577,
+  "local_test_auc": 0.8119658119658119,
+  "local_test_detection": {
+    "lesion_threshold": 0.5,
+    "component_threshold": 2000,
+    "sensitivity": 0.6666666659259258,
+    "specificity": 0.7472527471706316,
+    "precision": 0.20689655165279427,
+    "balanced_accuracy": 0.7069597065482787,
+    "TP": 6,
+    "TN": 68,
+    "FP": 23,
+    "FN": 3
+  },
+  "official_901": {
+    "n_cases": 901,
+    "positive_cases": 151,
+    "negative_cases": 750,
+    "validation_selected_lesion_threshold": 0.5,
+    "validation_selected_component_threshold": 2000,
+    "P_Sen_patient_sensitivity": 0.7483443708113678,
+    "T_Sen_tumor_sensitivity": 0.5900621117645923,
+    "specificity": 0.6146666666584711,
+    "precision": 0.28109452735619167,
+    "AUC": 0.8086622516556291,
+    "DSC_positive_cases": 0.29950126770213825,
+    "pancreas_DSC": 0.8235991258931742,
+    "TP": 113,
+    "TN": 461,
+    "FP": 289,
+    "FN": 38,
+    "GT_tumors": 161,
+    "detected_GT_tumors": 95
+  },
+  "training_hours_this_run": 4.640135226448377
+}
