@@ -1,5 +1,11 @@
 # PanTS V4 SuPreM Screening
 
+
+![PanTS V4 SuPreM Overview](assets/pants_v4_suprem_overview.jpg)
+
+*Figure 1. Overview of the PanTS V4 SuPreM segmentation pipeline and official 901-case evaluation. The qualitative segmentation example is illustrative; quantitative results are from the completed official evaluation.*
+
+
 PanTS V4 SuPreM technical screening submission.
 
 ## Official PanTS Test Evaluation
