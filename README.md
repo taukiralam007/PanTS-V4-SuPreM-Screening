@@ -39,7 +39,6 @@ Evaluation was performed on the official 901-case PanTS test set.
 
 ## Data Reference
 
-This work was completed as part of a technical screening task provided by Prof. Zongwei Zhou, using the PanTS dataset and reference materials provided through the official PanTS repository.
 
 - Official PanTS repository: https://github.com/MrGiovanni/PanTS
 - PanTS: The Pancreatic Tumor Segmentation Dataset
