@@ -37,6 +37,17 @@ Evaluation was performed on the official 901-case PanTS test set.
 - `training_history.csv` — training history
 - `v4_summary.json` — V4 experiment summary
 
+## Data Reference
+
+This work was completed as part of a technical screening task provided by Prof. Zongwei Zhou, using the PanTS dataset and reference materials provided through the official PanTS repository.
+
+- Official PanTS repository: https://github.com/MrGiovanni/PanTS
+- PanTS: The Pancreatic Tumor Segmentation Dataset
+
+The official PanTS repository includes the PanTS training data and the 901-case in-distribution test set used for evaluation.
+
+No raw medical imaging data are included in this repository.
+
 ## Model
 
 The submitted checkpoint is the best V4 SuPreM SegResNet model used for the official evaluation.
